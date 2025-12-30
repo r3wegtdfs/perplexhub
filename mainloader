@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+
+]]--
+
+local v0=game:GetService("Players");local v1=v0.LocalPlayer;local v2={[4836736077 -(857 + 74) ]={name="Street Shootout",url="https://raw.githubusercontent.com/r3wegtdfs/perplexhub/refs/heads/main/perplexhub-streetshootout"},[10449762031 -(367 + 201) ]={name="The Strongest Battlegrounds",url="https://raw.githubusercontent.com/r3wegtdfs/perplexhub/refs/heads/main/perplexhubtsb"},[118614517739521]={name="Blindshot",url="https://raw.githubusercontent.com/r3wegtdfs/perplexhub/refs/heads/main/perplexhubblindshot"}};local v3=game.PlaceId;local function v4() local v5=v2[v3];if v5 then print("🎮 Perplex Hub - Loading "   .. v5.name );game:GetService("StarterGui"):SetCore("SendNotification",{Title="Perplex Hub",Text="Loading "   .. v5.name   .. "..." ,Duration=930 -(214 + 713) });local v6,v7=pcall(function() loadstring(game:HttpGet(v5.url,true))();end);if v6 then print("✅ Perplex Hub - Successfully loaded!");else local v9=0;while true do if (v9==(0 + 0)) then warn("❌ Perplex Hub - Failed to load: "   .. tostring(v7) );game:GetService("StarterGui"):SetCore("SendNotification",{Title="Perplex Hub Error",Text="Failed to load script!",Duration=1 + 4 });break;end end end else local v8=877 -(282 + 595) ;while true do if (v8==(1638 -(1523 + 114))) then game:GetService("StarterGui"):SetCore("SendNotification",{Title="Perplex Hub",Text="This game is not supported yet!",Duration=5});print("\n📋 Supported Games:");v8=2 + 0 ;end if (v8==(2 -0)) then for v10,v11 in pairs(v2) do print("  • "   .. v11.name   .. " (ID: "   .. v10   .. ")" );end break;end if (v8==(1065 -(68 + 997))) then warn("⚠️ Perplex Hub - Game not supported!");warn("Place ID: "   .. tostring(v3) );v8=1271 -(226 + 1044) ;end end end end v4();
