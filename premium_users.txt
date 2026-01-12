@@ -1,2 +1,2 @@
 # Format: discordId:username:hwid:lastHwidReset:totalResets:totalInjections:lastInjection:lastIP
-1075817399841996944:owner:::0:0::
+1075817399841996944:owner:82a0ef95d43bff189b0dbfb0e57f4baf90de555a6c443038cac20cc99aaba649::0:1:2026-01-12T02:43:57.624Z:199.88.44.247
